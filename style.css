@@ -1,0 +1,113 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    border: 10px;
+    margin: 20px;
+    z-index: 20;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+
+.caption{
+    border: 10px;
+    margin: 20px;
+    z-index: 20;
+    position: absolute;
+    top: 275px;
+    left: 400px;
+}
+
+.JNPLogo{
+    max-width:8%;
+    height: auto;
+    z-index: 20;
+    position: absolute;
+    top: 10px;
+    left: 1575px;
+}
+
+.carouselOverlayNav{
+    z-index: 20;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 20;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+}
+.btn:hover {
+    background-color: gray;
+}
+.GalleryTitle
+{
+    margin: 50px;
+    top: 150px;
+    color:black;
+}
+.text-shadow {
+    text-shadow:
+      -2px -2px white,
+      -2px 2px white,
+      2px -2px white,
+      2px 2px white;
+  }
+  
+  .underline {
+    background-size: 1px 1em;
+    box-shadow:
+      inset 0 -0.175em white,
+      inset 0 -0.2em #000;
+    display: inline;
+  }
+  .card-text
+  {
+      color: #000;
+  }
+  .btnCard
+  {
+      color: #000;
+  }
+  .card {
+      margin: 50px;
+  }
